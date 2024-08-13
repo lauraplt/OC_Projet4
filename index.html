@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,8 +27,8 @@
             <li><a href="#gallery">Galerie</a></li>
             <li><a href="#services">Service</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank">
-                <img src="assets/images/instagram.webp" alt="">
+            <li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank" aria-label="Suivez-nous sur Instagram">
+                <img src="assets/images/instagram.webp" alt="Icône Instagram">
             </a></li>
         </ul>
     </div>
@@ -51,11 +51,11 @@
                 <img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100" loading="lazy" title="Photo des mariés pendant un mariage" alt="Photo des mariés pendant un mariage">
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" aria-label="Diapositive précédente">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next" aria-label="Diapositive suivante">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
@@ -144,12 +144,12 @@
             <h2>Une question ? Une demande de devis ?</h2>
             <p>N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
             <form action="" method="post">
-                <label>Nom</label>
-                <input type="text" name="nom" id="nom">
-                <label>Email</label>
-                <input type="email" name="email" id="email">
-                <label>Message</label>
-                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" id="nom" aria-labelledby="label-nom">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" aria-labelledby="label-email">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10" aria-labelledby="label-message"></textarea>
                 <input type="submit" value="Envoyer"/>
             </form>
         </div>
