@@ -440,6 +440,9 @@ select:disabled {
 [type="submit"],
 button {
   -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
 }
 ::-moz-focus-inner {
   padding: 0;
@@ -477,6 +480,8 @@ legend + * {
 [type="search"] {
   outline-offset: -2px;
   -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
 }
 ::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -1723,6 +1728,8 @@ summary {
 .form-select {
   background-color: #fff;
   -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
   background-repeat: no-repeat;
 }
 .form-control-plaintext.form-control-lg,
@@ -1854,9 +1861,10 @@ textarea.form-control-lg {
   background-size: contain;
   border: 1px solid rgba(0, 0, 0, 0.25);
   -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
   -webkit-print-color-adjust: exact;
-  color-adjust: exact;
+  print-color-adjust: exact;
 }
 .form-check-input[type="checkbox"] {
   border-radius: 0.25em;
