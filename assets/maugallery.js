@@ -82,7 +82,7 @@
       },
       openLightBox(t, e) {
         a(`#${e}`).find(".lightboxImage").attr("src", t.attr("src")),
-          a(`#${e}`).modal("toggle");
+          a(`#${e}`).modal('show');
       },
       prevImage(t) {
         let e = a(`#${t}`).find(".lightboxImage").attr("src"),
