@@ -352,4 +352,7 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
-}
+    }
+    .visually-hidden {
+	background-color: 4F4F4F;
+    }  
