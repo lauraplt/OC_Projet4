@@ -353,6 +353,7 @@ input[type="submit"] {
 		width: 80%;
 	}
     }
-    .visually-hidden {
-	background-color: 4F4F4F;
-    }  
+	.visually-hidden {
+		color: #000000 !important;
+		background-color: #FFFFFF !important;
+	}
